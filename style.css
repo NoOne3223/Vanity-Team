@@ -1,9 +1,11 @@
 
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
 body{
-    background-color: blueviolet;
-    justify-content: center;
-    font-family: secular one;
+    font-family: Secular One;
     font-style: italic;
+    justify-content: center;
     display: flex;
 }
 
@@ -18,7 +20,7 @@ body{
 
 
 .container2{
-    background-color: cyan;
+    background-color: rgb(111, 0, 255);
     width: 450px;
     height: 95px;
     border-radius: 9px;
@@ -40,7 +42,7 @@ body{
 }
 #button{
     color:rgb(255, 0, 0);
-    font-family: secular one;
+    font-family: Secular One;
     font-style: italic;
     padding: 10px 55px;
     border-radius: 20px;
@@ -67,3 +69,4 @@ body{
     rgb(29, 248, 0, 0.849)
     rgb(0, 0, 0)
 }
+
